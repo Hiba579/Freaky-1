@@ -1,0 +1,139 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: rgba(201, 18, 122, 0.932);
+  color: #fffbff;
+  border-bottom: #5c2f2f solid 1px;
+  height: 120px;
+}
+* {
+  box-sizing: border-box;
+}
+.container nav {
+  float: left;
+  margin-top: 10px;
+}
+header .container h2 {
+  float: right;
+  margin-top: 40px;
+  margin-right: 70px;
+}
+
+nav {
+  width: 50%;
+  padding: 3%;
+}
+
+ul {
+  margin: 0%;
+  padding: 0;
+  list-style: none;
+}
+li {
+  float: left;
+  list-style: none;
+  padding: 3px 3px;
+  display: inline;
+}
+li:hover {
+  background-color: white;
+}
+nav a:hover {
+  color: rgba(201, 18, 122, 0.932);
+}
+
+nav a {
+  width: 120px;
+  display: inline;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+  padding: 20px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  text-decoration-line: none;
+}
+
+img {
+  width: 100%;
+}
+
+#img-p1 img {
+  width: 30%;
+  height: 40%;
+  white-space: normal;
+}
+#img-p2 img {
+  width: 30%;
+  height: 10%;
+}
+#img-p3 img {
+  width: 30%;
+  height: 50%;
+}
+#img-p4 img {
+  width: 30%;
+  height: 50%;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 45px;
+  color: rgb(9, 6, 10);
+}
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+#text {
+  margin-top: 90px;
+  margin-left: 30px;
+  width: 90%;
+  padding: 0;
+  text-align: center;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+}
+.Gallery {
+  margin: 5px;
+  border: 1px solid #cccccc;
+  float: left;
+  width: 250px;
+}
+.Gallery img {
+  width: 100%;
+  border-width: 50px;
+}
+
+.footer {
+  padding: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(201, 18, 122, 0.932);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+#show {
+  position: relative;
+  background-image: url(images/pexels-ezekixl-akinnewu-946240.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  overflow: hidden;
+  color: white;
+}
+
+#show h2 {
+  position: absolute;
+  bottom: 0px;
+  left: 20%;
+}
