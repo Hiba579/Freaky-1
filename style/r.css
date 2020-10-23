@@ -1,0 +1,15 @@
+.Resoruces li {
+  margin-top: 5%;
+  text-align: center;
+  text-decoration: solid;
+  font-size: 120%;
+  text-decoration-line: none;
+  text-transform: uppercase;
+  color: palevioletred;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+<li><a href="https://www.proflowers.com/blog/types-of-flowers">Information</a></li>
+<li><a href="https://www.pexels.com/search/videos/beautiful%20flower/"> Videos </a></li>
+<li><a href="https://www.pexels.com/search/beautiful%20flower/">Photos</a></li>
